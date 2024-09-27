@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Empowerment Hub</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <h1>Youth Empowerment Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#mentorship">Mentorship</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="workshops">
+            <h2>Workshops</h2>
+            <div id="workshop-list"></div>
+            <button id="add-workshop-btn">Add Workshop</button>
+        </section>
+
+        <section id="mentorship">
+            <h2>Mentorship Program</h2>
+            <p>Connect with mentors who can guide your growth.</p>
+            <button id="connect-mentor-btn">Connect with a Mentor</button>
+            <div id="mentor-message"></div>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Access a variety of articles and tools to help you grow.</p>
+            <ul>
+                <li><a href="https://www.businessdailyafrica.com/">Article 1</a></li>
+                <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiAgOmUkOGIAxWmTkECHW9ZLzkYABAFGgJ3cw&co=1&ase=2&gclid=Cj0KCQjwjNS3BhChARIsAOxBM6o8p7h-jlkS7rI9RU_ICTIEfYseojguB2uVPCF7uHehBA2d0GT_zgYaAnSkEALw_wcB&ohost=www.google.com&cid=CAESVuD2nZ89t9oLahaLaQ71XH-3kOdr0JN0LInmmaJnVoKibM1NLd0ESRacUIq10lF-1KSIZqQfAONmr24XaIKXMVThvd59JTIZ9LmrIT4YC8_iIVj2gvSe&sig=AOD64_1Yn_l0qAk16zXuQMfWw1PNAHqrrg&q&nis=4&adurl&ved=2ahUKEwjxuOOUkOGIAxUSVPEDHYR5AJkQ0Qx6BAgGEAE">Article 2</a></li>
+                <li><a href="https://www.standardmedia.co.ke/entertainment/news/article/2000224111/youth-empowerment-education-employment-key-to-future-development-of-kenya">Article 3</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Youth Empowerment Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Sign-Up Modal -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2>Sign Up for Mentorship</h2>
+            <form id="signup-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="interests">Interests:</label>
+                <textarea id="interests" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
